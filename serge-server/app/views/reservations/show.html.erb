@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Trip:</strong>
+  <%= @reservation.trip_id %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @reservation.type %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @reservation.cost %>
+</p>
+
+<p>
+  <strong>Date and time:</strong>
+  <%= @reservation.date_and_time %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @reservation.location %>
+</p>
+
+<p>
+  <strong>Nickname:</strong>
+  <%= @reservation.nickname %>
+</p>
+
+<p>
+  <strong>Details:</strong>
+  <%= @reservation.details %>
+</p>
+
+<p>
+  <strong>Is paid:</strong>
+  <%= @reservation.is_paid %>
+</p>
+
+<%= link_to 'Edit', edit_reservation_path(@reservation) %> |
+<%= link_to 'Back', reservations_path %>
