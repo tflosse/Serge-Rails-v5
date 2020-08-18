@@ -28,7 +28,7 @@ User.create([
 
 Trip.create([
     {
-        name: "Alexa's Bachelorette -South of France",
+        name: "Alex's Bachelorette Biarritz",
         start_date: "2020-08-26",
         user_id: 1
     }, {
@@ -51,15 +51,6 @@ Reservation.create([
         nickname: "Flight to Paris",
         details: "Delta DL8553 confirmation: GILBH6",
         cost: 1450.95,
-        is_paid: true
-    }, {
-        trip_id: 1,
-        reservation_type: "flight",
-        date_and_time: "2020-08-25 23:45",
-        location: "Aeroport de Tahiti- Faa'a",
-        nickname: "Flight to Paris",
-        details: "Air France AF 234 confirmation: 456738927",
-        cost: 1985.80,
         is_paid: true
     }, {
         trip_id: 1,
